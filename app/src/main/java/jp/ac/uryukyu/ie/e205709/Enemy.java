@@ -55,32 +55,53 @@ public class Enemy {
         }
     }
 
-
+    /** 
+     * フィールドnameのgetterメソッド
+    */
     public String getName(){
         return this.name;
     }
 
+
+    /**フィールドnameのsetterメソッド
+     */
     public void setName(String _name){
         this.name = _name;
     }
 
+
+    /**フィールドhitPointのgetterメソッド
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+
+    /**フィールドhitPointのsetterメソッド
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint = _hitPoint;
     }
+
+    /**フィールドattackのgetterメソッド
+     */
     public int getAttack(){
         return this.attack;
     }
 
+    /**フィールドattackのsetterメソッド
+     */
     public void setAttack(int _attack){
         this.attack = _attack;
     }
 
+    /**フィールドdeadのgetterメソッド
+     */
     public boolean getDead(){
         return this.dead;
     }
+
+    /**フィールドdeadのsetterメソッド
+     */
     public void setDead(boolean _dead){
         this.dead = _dead;
     }
